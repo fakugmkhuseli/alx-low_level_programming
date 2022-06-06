@@ -12,6 +12,9 @@ int main(void)
 	{
 		for (dig2 = dig1 + 1; dig2 < 3; dig2++)
 		{
+			for (dig3 = dig2 + 1; dig3 < 4; dig3++)
+			{
+				
 			putchar((dig1 % 10) + '0');
 			putchar((dig2 % 10) + '0');
 			putchar((dig3 % 10) + '0');
@@ -21,11 +24,11 @@ int main(void)
 
 			putchar(',');
 			putchar(' ');
+			}
 		}
 	}
-}
 
-putchar('\n');
+	putchar('\n');
 
-return (0);
+	return (0);
 }
