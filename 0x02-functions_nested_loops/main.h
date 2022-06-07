@@ -1,12 +1,12 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef main_h
+#define main_h
 
 /**
  * File name: main.h
  * This header file contains declarations for all functions used in the 0x02-functions_nested_loops directory
  */
 
-int _putchar(char c);
+int _putchar(char);
 void print_alphabet(void);
 int _islower(int c);
 int _isalpha(int c);
