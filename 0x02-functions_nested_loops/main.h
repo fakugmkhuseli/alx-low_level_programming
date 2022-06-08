@@ -2,7 +2,7 @@
 #define main_h
 
 /**
- * File name: main.h
+ * Header file name: main.h
  * This header file contains declarations for all functions used in the 0x02-functions_nested_loops directory
  */
 
