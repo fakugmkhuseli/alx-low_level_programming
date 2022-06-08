@@ -7,6 +7,6 @@
 int _abs(int i)
 {
 	if (i < 0)
-		n = -n;
-	return (n)
+		i = -i;
+	return (i)
 }
