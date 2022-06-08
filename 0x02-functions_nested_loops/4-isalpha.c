@@ -1,0 +1,13 @@
+#include "main.h"
+/**
+ * -isalpha - Checks for alphabetic character.
+ *  @c: Character to be checked
+ *  Return: 1 if character is lowercase, 0 if otherwise
+ */
+int _isalpha(int c)
+{
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
+}
