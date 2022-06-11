@@ -1,34 +1,40 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * main - Prints the numbers from 1 to 100
- * Fizz is printed instead of the number, for multiplies of five
- * Return: Always 0
+ * main - Prints the numbers from 1 to 100.
+ * Return: void
  */
 
 int main(void)
 {
-	int number;
+	int i = 100;
+	int j;
 
-	for (number = 1; number <= 100; number++)
+	i = 1;
+	while (i <= j)
 	{
-		if ((number % 3) == 0 && (number % 5) == 0)
-			printf("FizzBuzz");
+		if (i % 3 == 0 && i % 5 == 0)
+		{
+			print("FizzBuzz");
+		}
 
-		else if ((number % 3) == 0)
+		else if ( i % 3 == 0)
+		{
 			printf("Fizz");
+		}
 
-		else if ((number % 5) == 0)
-			printf("Buzz");
+		else if (i % 5 == 0)
+		{
+			if ( i < j)
+				printf("Buzz");
+		}
 
-		else 
-			printf("%d", number);
+		else
+		{
+			printf("%i ", i);
+		}
 
-		if (number == 100)
-			continue;
-		printf(" ");
+		i++;
 	}
-
-	printf('\n');
-
+	printf("\n");
 	return (0);
 }
