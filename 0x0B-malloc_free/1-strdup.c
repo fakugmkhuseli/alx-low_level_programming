@@ -16,7 +16,7 @@ char *_strdup(char *str)
 	int index, len = 0;
 
 	if (str == NULL)
-		retun (NULL);
+		return (NULL);
 
 	for (index = 0; str[index]; index++)
 		len++;
