@@ -2,12 +2,13 @@
 #include <stdlib.h>
 
 /**
- * free_grip - Frees a 2 dimensional array of integers.
- * @grid: The 2 dimensional array of integers to be freed.
+ * free_grip - Frees a 2 dimensional grid previously created
+ *             by alloc_grid function.
+ * @grid: The 2 dimensional grid to be freed.
  * @height: The height of grid.
  */
 
-void free_gripd(int **grid, int height)
+void free_grid(int **grid, int height)
 {
 	int index;
 
