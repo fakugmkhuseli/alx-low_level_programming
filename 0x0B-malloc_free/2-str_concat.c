@@ -6,7 +6,7 @@
  * @s1: The string to be concatenated.
  * @s2: The string to be concatenated to s1.
  *
- * Return: NULL, if concateation fails
+ * Return: NULL, if concatenation fails
  *         Otherwise, return a pointer the newly-allocated space in memory
  *         containing the concatenated strings.
  *
@@ -28,7 +28,7 @@ char *str_concat(char *s1, char *s2)
 
 	concat_str = malloc(sizeof(char) * len);
 
-	if (conact_str == NULL)
+	if (concat_str == NULL)
 		return (NULL);
 
 	for (index = 0; s1[index]; index++)
