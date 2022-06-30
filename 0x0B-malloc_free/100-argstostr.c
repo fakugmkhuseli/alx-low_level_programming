@@ -10,7 +10,7 @@
  *         otherwise, apoinrer to a new string.
  */
 
-char *argstostr(int ac, char *av)
+char *argstostr(int ac, char **av)
 {
 	char *str;
 	int arg, byte, index, size = ac;
